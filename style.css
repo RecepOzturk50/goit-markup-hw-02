@@ -14,9 +14,10 @@ body {
   height: 72px;
   width: 1440px;
   margin: 0px auto;
-  position: sticky;
+
   top: 0px;
 }
+
 .web-header {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -28,7 +29,6 @@ body {
   position: absolute;
   margin-top: 25px;
   margin-left: 156px;
-  cursor: pointer;
 }
 .studio-header {
   font-family: "Raleway", sans-serif;
@@ -41,7 +41,6 @@ body {
   position: absolute;
   margin-top: 25px;
   margin-left: 200px;
-  cursor: pointer;
 }
 
 .hm1 {
@@ -69,8 +68,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  cursor: pointer;
 }
+.headerlist :hover,
+.address-header :hover {
+  color: #404bbf;
+}
+.hm1 :active {
+  color: #404bbf;
+}
+
 .mail {
   position: absolute;
   top: 24px;
@@ -84,7 +90,7 @@ body {
 .mail a,
 .tel a {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -131,7 +137,10 @@ body {
 }
 .button {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
+  background-color: #4d5ae5;
+}
+.button:hover {
+  background-color: #404bbf;
 }
 .button {
   font-family: "Roboto", sans-serif;
@@ -177,7 +186,7 @@ body {
 }
 .sec1 {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -229,7 +238,7 @@ body {
 }
 .sec2 p {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -328,7 +337,7 @@ body {
 }
 .Portfolio-font p {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -353,7 +362,6 @@ body {
   position: absolute;
   margin-top: 101.5px;
   margin-left: 156px;
-  cursor: pointer;
 }
 .studio {
   font-family: "Raleway", sans-serif;
@@ -366,13 +374,12 @@ body {
   position: absolute;
   margin-top: 101.5px;
   margin-left: 200px;
-  cursor: pointer;
 }
 .footer-text {
   width: 264px;
   height: 72px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
